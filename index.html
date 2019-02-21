@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>To Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" src="styles.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Super Handy do List</h1>
+        <p class="lead">This is a simple easy to use to-do-list. Simply drag your item to the other collumns as needed.</p>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <section id="div1" class="holder to-do lead col-sm centre-block" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h3>To do:</h3>
+                <hr class="my-4">
+                <button onclick="addButtonFunc()" type="button" class="btn btn-info mb-4">Add Item</button>
+            </section>
+            <section id="div1" class="holder lead col-sm" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h3>In progress:</h3>
+                <hr class="my-4">
+            </section>
+            <section id="div1" class="holder lead col-sm" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h3>Done:</h3>
+                <hr class="my-4">
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

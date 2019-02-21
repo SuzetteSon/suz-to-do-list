@@ -1,0 +1,19 @@
+{
+  "name": "to-do",
+  "version": "1.0.0",
+  "description": "A super simple to-do list using Vanilla JavaScript and Bootstrap.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuzetteSon/suz-to-do-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuzetteSon/suz-to-do-list/issues"
+  },
+  "homepage": "https://github.com/SuzetteSon/suz-to-do-list#readme"
+}
